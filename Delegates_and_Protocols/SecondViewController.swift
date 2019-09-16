@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  Delegates_and_Protocols
 //
 //  Created by apple on 16/09/19.
@@ -8,17 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SecondViewController: UIViewController {
+    
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textFiled: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    @IBAction func sendButtonPressed(_ sender: UIButton) {
+    
+    @IBAction func sendDataBack(_ sender: UIButton) {
     }
     
 }
